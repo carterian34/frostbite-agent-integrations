@@ -2,8 +2,8 @@
   "mcpServers": {
     "frostbite": {
       "type": "http",
-      "url": "http://localhost/mcp",
-      "oauth_resource": "http://localhost/mcp",
+      "url": "https://thefrostbiteapp.com/mcp",
+      "oauth_resource": "https://thefrostbiteapp.com/mcp",
       "oauth": {
         "callbackUrl": "http://127.0.0.1:4321/callback/frostbite",
         "callbackPort": 4321
