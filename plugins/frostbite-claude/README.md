@@ -1,7 +1,20 @@
 # Frostbite for Claude Code
 
-Claude Code connects directly to Frostbite's remote streamable-HTTP MCP server; it does not install the Codex plugin package.
+Install Frostbite from this repository's Claude Code marketplace:
 
-For local development, add the server with Claude Code's MCP command using `http://localhost/mcp`. For distribution, replace that address with Frostbite's public HTTPS MCP endpoint and complete the OAuth sign-in requested by Claude Code.
+```sh
+claude plugin marketplace add carterian34/frostbite-agent-integrations
+claude plugin install frostbite@frostbite-integrations
+```
 
-This package intentionally contains client documentation rather than a Codex-style plugin manifest, because Claude Code manages MCP connections through its own configuration and `claude mcp` workflow.
+Restart Claude Code or run `/reload-plugins` if prompted, then use `/mcp` to complete the OAuth sign-in for Frostbite.
+
+The installed plugin connects to Frostbite's public streamable-HTTP MCP endpoint at `https://thefrostbiteapp.com/mcp`.
+
+## Local development
+
+To connect to a local Frostbite server instead, bypass the marketplace and add a project-scoped MCP server:
+
+```sh
+claude mcp add --scope project --transport http frostbite http://localhost/mcp
+```

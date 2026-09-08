@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "frostbite": {
+      "type": "http",
+      "url": "https://thefrostbiteapp.com/mcp"
+    }
+  }
+}

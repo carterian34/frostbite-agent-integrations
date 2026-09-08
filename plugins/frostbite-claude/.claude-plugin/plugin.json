@@ -1,0 +1,9 @@
+{
+  "name": "frostbite",
+  "version": "0.1.0",
+  "description": "Authenticated Frostbite skating, rink, journal, and social MCP tools for Claude Code.",
+  "author": {
+    "name": "Frostbite"
+  },
+  "mcpServers": "./.mcp.json"
+}

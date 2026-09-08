@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "frostbite-integrations",
+  "description": "Frostbite MCP integrations for Claude Code.",
+  "owner": {
+    "name": "Frostbite"
+  },
+  "plugins": [
+    {
+      "name": "frostbite",
+      "description": "Authenticated Frostbite skating, rink, journal, and social MCP tools.",
+      "source": "./plugins/frostbite-claude",
+      "category": "productivity"
+    }
+  ]
+}

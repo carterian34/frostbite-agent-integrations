@@ -7,7 +7,7 @@ Each client package connects to the same Frostbite streamable-HTTP endpoint and 
 ## Packages
 
 - `plugins/frostbite-codex`: installable Codex plugin and marketplace entry.
-- `plugins/frostbite-claude`: Claude Code MCP configuration and installation notes.
+- `plugins/frostbite-claude`: Claude Code marketplace plugin and MCP configuration.
 - `plugins/frostbite-gemini`: Gemini CLI MCP configuration and installation notes.
 
 The server, OAuth authorization rules, and tool behavior live in the Frostbite backend repository; this repository contains only client integration material.
