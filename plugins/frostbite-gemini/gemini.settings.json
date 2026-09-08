@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "frostbite": {
+      "httpUrl": "http://localhost/mcp",
+      "description": "Frostbite skating, rink, journal, and social workflows"
+    }
+  }
+}

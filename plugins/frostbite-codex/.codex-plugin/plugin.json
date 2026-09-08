@@ -1,0 +1,19 @@
+{
+  "name": "frostbite-codex",
+  "version": "0.1.0",
+  "description": "Frostbite skating, rink, journal, and social MCP tools for Codex.",
+  "author": {
+    "name": "Frostbite"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Frostbite",
+    "shortDescription": "Use Frostbite MCP tools in Codex",
+    "longDescription": "Connect Codex to authenticated Frostbite skating, rink, journal, and social workflows.",
+    "developerName": "Frostbite",
+    "category": "Productivity",
+    "capabilities": ["Interactive"],
+    "defaultPrompt": ["Use Frostbite to help with my skating data."]
+  }
+}

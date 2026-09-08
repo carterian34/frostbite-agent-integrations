@@ -1,0 +1,20 @@
+{
+  "name": "frostbite-integrations",
+  "interface": {
+    "displayName": "Frostbite integrations"
+  },
+  "plugins": [
+    {
+      "name": "frostbite-codex",
+      "source": {
+        "source": "local",
+        "path": "./plugins/frostbite-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
