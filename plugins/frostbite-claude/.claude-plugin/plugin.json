@@ -5,5 +5,6 @@
   "author": {
     "name": "Frostbite"
   },
+  "skills": "./skills",
   "mcpServers": "./.mcp.json"
 }

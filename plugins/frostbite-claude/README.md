@@ -9,7 +9,7 @@ claude plugin install frostbite@frostbite-integrations
 
 Restart Claude Code or run `/reload-plugins` if prompted, then use `/mcp` to complete the OAuth sign-in for Frostbite.
 
-The installed plugin connects to Frostbite's public streamable-HTTP MCP endpoint at `https://thefrostbiteapp.com/mcp`.
+The installed plugin connects to Frostbite's public streamable-HTTP MCP endpoint at `https://thefrostbiteapp.com/mcp` and includes a Frostbite skill that guides Claude's use of the authenticated tools.
 
 ## Local development
 
